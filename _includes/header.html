@@ -1,0 +1,21 @@
+<div class="header">
+  <div class="container">
+    <div class="header-links">
+    {% assign site_pages = site.pages | sort: "header_order" %}
+    {% for node in site_pages %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class='{% if page.url == node.url %}active{% endif %}' href='{{ node.url }}'>{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+      <a href='#'><del>PM Resources</del></a>
+    </div>
+    <div class='header-index'>
+      <a href='/'>KSHITIJ BHARDWAJ</a>
+      {% if page.url == '/'%}
+        <div>Product Manager, Designer, Self taught fullstack developer</div>
+      {% endif %}
+    </div>
+  </div>
+</div>

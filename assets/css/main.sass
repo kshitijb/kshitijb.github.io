@@ -1,0 +1,78 @@
+---
+---
+
+@import base
+@import header
+
+body
+  font-family: 'Open Sans', sans-serif
+  line-height: 1.8rem
+  font-size: 16px
+  display: flex
+  flex-direction: column
+  color: $color-global
+
+html, body
+  margin: 0
+  padding: 0
+  position: relative
+  height: 100%
+  width: 100%
+
+a
+  color: #050002
+  letter-spacing: 1px
+  &.active
+    color: #222222
+  &.button
+    padding: 1.25rem
+    display: block
+    width: 50%
+    text-align: center
+    margin: 4rem auto
+    background: #2e3235
+    border-radius: 0.4rem
+
+h1, h2, h3, p
+  margin: 0 0
+
+p
+  margin-bottom: 2rem
+
+hr
+  margin: 4rem 0
+  border: 1px solid #f5f5f5
+
+blockquote
+  margin-top: 55px
+  --x-height-multiplier: 0.363
+  --baseline-multiplier: 0.157
+  font-weight: lighter
+  font-style: italic
+  font-size: 28px
+  margin-left: -1.75px
+  line-height: 1.48
+  letter-spacing: -.014rem
+  color: rgba(0,0,0,.6)
+  border: none
+  padding: 0
+  padding-left: 50px
+  text-align: left
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  
+.device-container
+  font-size: 14px
+  .device
+    margin: 0 auto
+  
+  .android
+    .cd
+      &-home, &-body
+        background-color: #050002 !important
+        border-color: #333333 !important
+      &-home
+        height: 1.75em
+        bottom: 1.8em
+      &-body
+        border-radius: 1em
