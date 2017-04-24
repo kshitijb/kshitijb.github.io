@@ -2,6 +2,7 @@
 layout: project
 title: Touchtalent - Website Redesign
 excerpt: Website redesign
+category: Touchtalent
 ---
 
 <div class="device-container">

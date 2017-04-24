@@ -2,6 +2,7 @@
 layout: project
 title: NuvoEx - Forward Logistics
 excerpt: Nuvo Logistics forayed into Forward logistics. The operational processes and the corresponding conceptualisation of technical system.
+category: Peppertap / NuvoEx
 ---
 Suit of 10-12 apps web | mobile
 Ready for very high volumes of orders.

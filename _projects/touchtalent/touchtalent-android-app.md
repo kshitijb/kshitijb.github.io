@@ -2,6 +2,7 @@
 layout: project
 title: Touchtalent - Android App
 excerpt: Touchtalent redesign app
+category: Touchtalent
 ---
 Touchtalent is an online global community where users showcase their creative side. Touchtalent Mobile App was a step towards enabling the users to consume and create creative content hassle free and on the move.
 

@@ -2,6 +2,7 @@
 layout: project
 title: NuvoEx - Hyperlocal Delivery
 excerpt: The experience of scaling and running a hyperlocal grocery business at 40K orders/day led to exploring possibility of giving "Hyperlocal Delivery as a Service".
+category: Peppertap / NuvoEx
 ---
 
 Scaled the business for 0 to 3600 orders/month within 2 months
