@@ -40,11 +40,23 @@
   
 .cv-heading
   color: $color-gunmetal
+  text-transform: uppercase
+  font-weight: bold 
   &.cv-company
     a
       &::after
         content: ' »'
         color: #bbb
 
-.project-list-container
-  margin-bottom: 2rem
+.project-category-container
+  margin-bottom: 6rem
+
+  .project-list-container
+    margin-bottom: 2rem
+
+  .project-container-heading
+    @extend .cv-heading
+    margin-bottom: 2rem
+
+  .project-container
+    margin-bottom: 2rem
