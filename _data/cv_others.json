@@ -1,0 +1,35 @@
+[
+  {
+    "heading": "INTERNSHIPS",
+    "points": [
+      {
+        "name": "University of Technology, Vienna - User Interface Designer, 2011",
+        "url": ""
+      },
+      {
+        "name": "Nokia Research Center - User Researcher, 2011",
+        "url": ""
+      },
+      {
+        "name": "Juniper Networks Inc. - User Experience Designer, 2010",
+        "url": "https://juniper.net"
+      }
+    ]
+  },{
+    "heading": "CERTIFICATES",
+    "points":[
+      {
+        "name": "University of Adelaide (edX) - Project Management",
+        "url": "https://courses.edx.org/certificates/116dc4ddd098439b88bec7c0187e6b56"
+      },
+      {
+        "name": "Indian Institute of Management Bangalore (edX) - Introduction to Investments",
+        "url": "https://courses.edx.org/certificates/c54e56218f664f86903b1fd53c150452"
+      },
+      {
+        "name": "Udemy - R Basics, R Programming Language",
+        "url": "https://www.udemy.com/certificate/UC-LUUM516E/"
+      }
+    ]
+  }
+]

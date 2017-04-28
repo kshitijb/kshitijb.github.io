@@ -1,9 +1,11 @@
 [
   {
     "heading": "REMOTE FREELANCE",
+    "heading_link":"",
     "role": "Product Manager",
     "duration": "",
-    "summary": "I have been offering my services for past 1 year and have worked with startups from Netherlands, Singapore and Sweden in completely distributed teams."
+    "summary": "I have been offering my services for past 1 year and have worked with startups from Netherlands, Singapore and Sweden in completely distributed teams.",
+    "points": []
   },
   {
     "heading": "PEPPERTAP / NUVOEX - VC FUNDED STARTUP (USD 47M)",
@@ -24,7 +26,8 @@
     "heading_link":"https://housing.com",
     "role": "Senior User Experience Designer",
     "duration": "Apr 2015 to Nov 2015",
-    "summary": "Led the innovation powerhouse of Housing.com with an objective to create new products in the housing domain. Established a lean development process to churn new products quickly."
+    "summary": "Led the innovation powerhouse of Housing.com with an objective to create new products in the housing domain. Established a lean development process to churn new products quickly.",
+    "points": []
   },
   {
     "heading": "TOUCHTALENT - SAIF FUNDED STARTUP",
@@ -44,42 +47,7 @@
     "heading_link":"https://flipkart.com",
     "role": "Interaction Designer",
     "duration": "July 2012 - May 2014",
-    "summary": "Designed key components in the online shopping processes including checkout, self serve portal, offers eco-system, information architecture and more which are still live."
-  },
-  {
-    "heading": "INTERNSHIPS",
-    "points": [
-      "University of Technology, Vienna - User Interface Designer, 2011",
-      "Nokia Research Center - User Researcher, 2011",
-      "[Juniper Networks Inc.](https://juniper.net) - User Experience Designer, 2010"
-    ]
-  },
-  {
-    "heading": "CERTIFICATES",
-    "points": [
-      "University of Adelaide (edX) - Project Management",
-      "Indian Institute of Management Bangalore (edX) - Introduction to Investments",
-      "Udemy - R Basics, R Programming Language"
-    ]
-  },
-  {
-    "heading": "SKILLS",
-    "points": [
-      "Product Management", 
-      "Project Management", 
-      "Design Thinking", 
-      "Product Strategy", 
-      "Analytics", 
-      "System Design", 
-      "Technical Communication", 
-      "Innovation", 
-      "New Product Development", 
-      "Business Process", 
-      "User Experience", 
-      "User Interface", 
-      "User Research", 
-      "User Testing", 
-      "Fullstack Development"
-    ]
+    "summary": "Designed key components in the online shopping processes including checkout, self serve portal, offers eco-system, information architecture and more which are still live.",
+    "points": []
   }
 ]
