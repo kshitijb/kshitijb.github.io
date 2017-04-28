@@ -1,5 +1,39 @@
 @import variables
 
+h1, h2, h3
+  &.heading
+    font-size: 1.15rem
+
+.back-button
+  display: block
+  margin-bottom: 2rem
+
+.heading
+  color: $color-gunmetal
+  text-transform: uppercase
+  font-weight: bold 
+  &.caret
+    a
+      &::after
+        content: ' »'
+        color: #bbb
+
+.device-container
+  font-size: 14px
+  .device
+    margin: 0 auto
+  
+  .android
+    .cd
+      &-home, &-body
+        background-color: #050002 !important
+        border-color: #333333 !important
+      &-home
+        height: 1.75em
+        bottom: 1.8em
+      &-body
+        border-radius: 1em
+
 .container
   max-width: 810px
   width: 100%
@@ -21,35 +55,9 @@
 
 .blog-excerpt
 
-.skill-container
-  font-size: 0rem
-  margin-bottom: 20rem
-
-.skill-tag
-  font-size: 0.8rem
-  display: inline-block
-  padding: 0.25rem 0.5rem
-  border-radius: .12rem
-  background: #f5f5f5
-  margin: 0 0.25rem 1rem 0
-  vertical-align: top
-
-
-.cv-role
-  color: $color-global
-  
-.cv-heading
-  color: $color-gunmetal
-  text-transform: uppercase
-  font-weight: bold 
-  &.cv-company
-    a
-      &::after
-        content: ' »'
-        color: #bbb
 
 .project-category-container
-  margin-bottom: 6rem
+  margin-bottom: $separator-margin
 
   .project-list-container
     margin-bottom: 2rem
@@ -59,4 +67,4 @@
     margin-bottom: 2rem
 
   .project-container
-    margin-bottom: 2rem
+    margin-bottom: 1.15rem

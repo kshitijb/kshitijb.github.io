@@ -7,13 +7,57 @@ title: Home
 header_order: 1
 skill_tags: [Product Management, Project Management, Design Thinking, Product Strategy, Analytics, System Design, Technical Communication, Innovation, New Product Development, Business Process, User Experience, User Interface, User Research, User Testing, Fullstack Development]
 ---
+<div class="cv-highlight cv-block" markdown="block">
+  {% for highlight in site.data.cv_highlights %}
+  - {{highlight}}
+  {% endfor %}
+</div>
 
-- Graduate from [Indian Institute of Technology Guwahati / IIT Guwahati](http://www.iitg.ac.in/){:target="_blank_"}, 2012
-- Designer turned product manager
-- Formal education in design
-- Intermediate fullstack development skills
+{% for experience in site.data.cv_experiences %}
+<div class="cv-experience cv-block">
+  <div class="cv-heading caret">
+    {% if experience.heading_link != "" %}
+    <a href="{{experience.heading_link}}" target="_blank_">{{experience.heading}}</a>
+    {% else %}
+    <div>{{experience.heading}}</div>
+    {% endif %}
+  </div>
+  <div>
+    <span class="cv-role">{{experience.role}}</span>
+     | <span class="cv-duration">{{experience.duration}}</span>
+  </div>
+  <div class="cv-summary">
+    {{experience.summary}}
+  </div>
+  {% if experience.points.size > 0 %}
+  <ul>
+    {% for point in experience.points %}
+    <li>{{point}}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
+{% endfor %}
 
-<br/>
+{% for other in site.data.cv_others%}
+<div class="cv-other cv-block">
+  <div class="cv-heading">
+  {{other.heading}}
+  </div>
+  <ul>
+    {% for point in other.points%}
+    <li>
+      {% if point.url != "" %}
+      <a href="{{point.url}}" target="_blank_">{{point.name}}</a>
+      {% else %}
+      <div>{{point.name}}</div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}
+<!-- <br/>
 <br/>
 <span class="cv-company cv-heading">**REMOTE FREELANCE**</span>  
 Product Manager  
@@ -64,10 +108,8 @@ Designed key components in the online shopping processes including checkout, sel
 <span class="cv-heading">**CERTIFICATES**</span>  
 - [University of Adelaide (edX)](https://courses.edx.org/certificates/116dc4ddd098439b88bec7c0187e6b56){:target="_blank_"} - Project Management
 - [Indian Institute of Management Bangalore (edX)](https://courses.edx.org/certificates/c54e56218f664f86903b1fd53c150452){:target="_blank_"} - Introduction to Investments
-- [Udemy - R Basics, R Programming Language](https://www.udemy.com/certificate/UC-LUUM516E/){:target="_blank_"}
+- [Udemy - R Basics, R Programming Language](https://www.udemy.com/certificate/UC-LUUM516E/){:target="_blank_"}  -->
 
-<br/>
-<br/>
 <span class="cv-heading">**SKILLS**</span>
 <div class="skill-container">
 {% for skill in page.skill_tags %}
