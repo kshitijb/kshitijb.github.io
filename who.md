@@ -2,7 +2,7 @@
 layout: page
 title: Who?
 permalink: /who/
-header_order: 4
+header_order: 3
 ---
 <h1 class="heading">WHO</h1>
 I am Kshitij, a product manager who has a [formal education in design](https://www.iitg.ernet.in/design/){:target='_blank_'} from [1 of the top 7 technology institutes of India](https://en.wikipedia.org/wiki/Indian_Institutes_of_Technology#History){:target='_blank_'}. I am a self-taught full-stack developer. I have gained {{ site.time | date: '%Y' | minus:2012 }} years of professional experience which has honed my skills to empathize better with stakeholders, be it a user or a business team, while keeping a sharp eye on business opportunities. I am a DIY and lean working style enthusiast. Once in a while, I indulge in new experiences to expand my perspective about the biosphere and life in general.
