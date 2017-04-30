@@ -44,3 +44,10 @@ defaults:
       layout: project
 
 permalink: /blog/:year/:title
+
+company-order:
+  - Remote
+  - Peppertap / NuvoEx
+  - Housing
+  - Touchtalent
+  - Flipkart
