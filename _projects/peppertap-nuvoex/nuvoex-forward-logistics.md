@@ -78,4 +78,4 @@ In addition, we built a monitoring tool, Fincher, on top of all the data we were
 The system comprises of 10 web & mobile apps and couple of background apps. Just to give the glimpse of depth and width of the system, please go through the graphic below.
 <br/>
 <br/>
-<img class="image-fullwidth" src="/assets/img/nuvoex/nuvo-forward-portrait.png" alt="Nuvo Logistics Forward System"/>
+<img class="image-fullwidth" src="/assets/img/nuvoex/nuvo-forward.png" alt="Nuvo Logistics Forward System"/>
