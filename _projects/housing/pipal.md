@@ -20,9 +20,7 @@ Pipal is a tool for residents of a locality to converse, discuss and engage in a
       <div class="cd-home"></div>
       <div class="cd-screen">
         <!-- img, iframe, content, etc. goes here -->
-        <video controls autoplay loop muted>
-          <source src="/assets/img/housing/pipal/pipal_onboarding.mp4" type="video/mp4">
-        </video>
+        <iframe width="375" height="667" src="https://www.youtube.com/embed/36v14I78ZWQ?vq=hd720&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -40,9 +38,7 @@ Pipal is a tool for residents of a locality to converse, discuss and engage in a
       <div class="cd-home"></div>
       <div class="cd-screen">
         <!-- img, iframe, content, etc. goes here -->
-        <video controls autoplay loop muted>
-          <source src="/assets/img/housing/pipal/pipal_cards.mp4" type="video/mp4">
-        </video>
+        <iframe width="375" height="667" src="https://www.youtube.com/embed/BlEoeDYF7RE?vq=hd720&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
