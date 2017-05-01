@@ -39,3 +39,25 @@ The core of the application is to enable a workflow which allows real estate dev
 - 2 Backend Developers
 - 1 Product Manager  
 Although the development team is in one timezone, team members from the Flightmode team are situated in different timezones.
+
+> Flightmode in action
+
+<div class="device-container">
+  <div class="cd-iphone-6 cd-silver device">
+    <div class="cd-body">
+      <div class="cd-sound"></div>
+      <div class="cd-sleep"></div>
+      <div class="cd-camera"></div>
+      <div class="cd-ear"></div>
+      <div class="cd-home"></div>
+      <div class="cd-screen cd-transition-slider">
+        <!-- img, iframe, content, etc. goes here -->
+        <img src="/assets/img/flightmode/onboarding-1.png" alt="Flightmode - Onboarding Splash">
+        <img src="/assets/img/flightmode/onboarding-2.png" alt="Flightmode - Onboarding Choose Categories">
+        <img src="/assets/img/flightmode/card-1.png" alt="Flightmode - Feed showing Article 1 of 3">
+        <img src="/assets/img/flightmode/card-2.png" alt="Flightmode - Feed showing Article 2 of 3">
+        <img src="/assets/img/flightmode/card-3.png" alt="Flightmode - Feed showing Article 3 of 3">
+      </div>
+    </div>
+  </div>
+</div>
