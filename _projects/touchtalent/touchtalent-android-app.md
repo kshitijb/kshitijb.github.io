@@ -8,6 +8,11 @@ Touchtalent is an online global community where users showcase their creative si
 
 I defined the product philosophy which had to be tailored for the mobile context of use and many other factors. The approach was to prioritize the use cases for mobile while keeping a sharp eye on edge cases to deliver an amazing experience.
 
+<h1 class="heading">Result</h1>
+1. Significant improvement in percentage of users sharing from 5% o 24%.
+2. Monthly retention of content creators rose from 27% to 50%
+3. Content creation conversion improved from 32% to 52%
+
 > Content is the focus in the feed  
 
 <div class="device-container">

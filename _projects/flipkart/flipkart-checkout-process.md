@@ -3,6 +3,7 @@ layout: project
 title: Flipkart - Checkout Process
 excerpt: Redesigned checkout process of flipkart with lesser perceived time to order.
 category: Flipkart
+draft: true
 ---
 <br/>
 <br/>

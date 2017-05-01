@@ -14,6 +14,9 @@ h1, h2, h3
   img
     width: 100%
 
+.image-fullwidth
+  width: 100%
+
 .back-button
   display: block
   margin-bottom: 2rem
@@ -79,3 +82,23 @@ h1, h2, h3
 
   .project-container
     margin-bottom: 1.15rem
+    
+.footer
+  border-top: 0.2rem solid #f6f6f6
+  .container
+    height: 8rem
+    line-height: 8rem
+  a
+    display: inline-block
+    height: 4rem
+    line-height: 4rem
+    padding: 0 1rem
+    
+@media only screen and (max-width: 480px)
+  .footer
+    text-align: center
+    .container
+      height: auto
+      line-height: inherit
+    a
+      display: block

@@ -5,7 +5,7 @@
 layout: page
 title: Home
 header_order: 1
-skill_tags: [Product Management, Project Management, Design Thinking, Product Strategy, Analytics, System Design, Technical Communication, Innovation, New Product Development, Business Process, User Experience, User Interface, User Research, User Testing, Fullstack Development]
+skill_tags: [Product Management, Project Management, Design Thinking, Product Strategy, Analytics, Attention to Detail, System Design, Technical Communication, Innovation, New Product Development, Business Process, User Experience, User Interface, User Research, User Testing, Fullstack Development, E-Commerce, User Generated Content, Start-ups, NodeJS, Python, HTML, CSS]
 ---
 <div class="cv-highlight cv-block" markdown="block">
   {% for highlight in site.data.cv_highlights %}
